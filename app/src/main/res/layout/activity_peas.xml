@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".peas">
+
+    <ImageView
+        android:id="@+id/imgvps"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/peas" />
+
+    <TextView
+        android:id="@+id/txtps2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        android:gravity="left"
+        android:text="ItemName: Peas"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgvps" />
+
+    <TextView
+        android:id="@+id/txtps3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="left"
+        android:text="ItemDecription Fresh Peace"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtps2" />
+
+    <TextView
+        android:id="@+id/txtps4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="32dp"
+        android:gravity="left"
+        android:text="Itemprice: $3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtps3" />
+
+    <Button
+        android:id="@+id/psbtn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="51dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Add To Cart"
+        android:textColor="#F70A0909"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtps4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "796749256842",
+    "project_id": "onshopp-b6af1",
+    "storage_bucket": "onshopp-b6af1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796749256842:android:c84e87d8cfac78efd03573",
+        "android_client_info": {
+          "package_name": "com.example.onshopp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796749256842-bskg32q9o2d9naspeb3eig9i7lub145v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgTHYfXItWqIWk-P--qkpUshsi57LRfeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796749256842-bskg32q9o2d9naspeb3eig9i7lub145v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
